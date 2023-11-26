@@ -80,3 +80,4 @@ class Trie:
                 node.freq += 1
             node.is_end_of_word = True
     
+    ##TODO ADD TOP_K cache
