@@ -66,6 +66,7 @@ class Trie:
         words = queries.split(" ")
         for word in words:
             for char in word:
+                if not temp_node[char]: return
                 temp_node = temp_node[char]
 
         return temp_node
